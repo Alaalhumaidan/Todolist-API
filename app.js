@@ -5,6 +5,7 @@ const taskRout = require("./API/task/routes");
 const app = express();
 
 app.use(cors());
+app.use(express.json());
 app.use("/tasks", taskRout);
 
 app.listen(8000, () => {

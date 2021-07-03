@@ -2,7 +2,7 @@ const tasks = [
   {
     id: 1,
     name: "Prepare for Class",
-    status: true,
+    status: false,
   },
   {
     id: 2,
@@ -12,27 +12,27 @@ const tasks = [
   {
     id: 3,
     name: "Finalize Mini-project",
-    status: true,
+    status: false,
   },
   {
     id: 4,
     name: "Hourse Riding Lesson",
-    status: true,
+    status: false,
   },
   {
     id: 5,
     name: "GYM",
-    status: true,
+    status: false,
   },
   {
     id: 6,
     name: "Coffee",
-    status: true,
+    status: false,
   },
   {
     id: 7,
     name: "Meeting",
-    status: true,
+    status: false,
   },
 ];
 
