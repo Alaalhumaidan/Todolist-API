@@ -26,3 +26,12 @@ exports.updateTask = (req, res) => {
     res.status(404).json({ message: "Task not found" });
   }
 };
+exports.createTask =  (req, res) => {
+  const id = tasks.length +1;
+  const newTask = {
+      id, 
+      ...req.body,
+  };
+  tasks.push(newTask);
+  res.status(201).json(newTask);
+};
